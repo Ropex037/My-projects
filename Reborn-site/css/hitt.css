@@ -1,0 +1,34 @@
+.hiit-personalni {
+    background-image: url(../img/HIIT-hero.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.hiit-personalni h1 {
+    text-align: center;
+    padding-top: 20%;
+    color: blanchedalmond;
+}
+
+.treneri {
+    padding: 60px;
+}
+
+.treneri img {
+    width: 100%;
+    height: 400px;
+}
+
+@media (max-width:1200px) {
+    .treneri h1 {
+        border-left: 4px solid var(--main-brown);
+        padding-left: 2px;
+    }
+    .main-personalni h1 {
+        padding-top: 80%;
+    }
+    .treneri img {
+        width: 100%;
+        height: 250px;
+    }
+}

@@ -1,0 +1,67 @@
+#footer {
+    width: 100%;
+}
+
+.footer-top {
+    background-color: var(--main-gray);
+    border-bottom: 2px solid var(--main-brown);
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.footer-top h4 {
+    color: var(--main-brown);
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid var(--main-dark-brown);
+    position: relative;
+}
+
+.footer-top h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 30%;
+    bottom: -2px;
+    height: 3px;
+    background-color: var(--main-brown);
+}
+
+.footer-top li {
+    color: blanchedalmond;
+    text-align: left;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+.footer-bot {
+    background-color: var(--main-gray);
+    max-width: 100%;
+}
+
+.H-kontakt {
+    padding-right: 55px;
+}
+
+.contact-icons {
+    height: 20px;
+    padding-top: 10px;
+}
+
+.social i {
+    font-size: 40px;
+    width: 50px;
+    color: blanchedalmond;
+}
+
+.footer-bot p {
+    color: blanchedalmond;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.prava p {
+    text-align: center;
+}

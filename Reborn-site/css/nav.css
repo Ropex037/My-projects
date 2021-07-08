@@ -1,0 +1,105 @@
+.bg-dark {
+    transition: 0.5s ease;
+    background: transparent !important;
+}
+
+.scrolled {
+    background: var(--main-brown)!important;
+}
+
+.logo {
+    width: 200px;
+}
+
+#mynav {
+    width: 100%;
+    position: absolute;
+}
+
+#main-header {
+    position: relative;
+}
+
+#mynav a {
+    color: #070909;
+}
+
+#mynav button {
+    color: #070909;
+}
+
+#mynav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    max-width: 100vw!important;
+    z-index: 1033!important;
+    padding: 0;
+}
+
+.navbar-brand {
+    background-image: url(../img/minilog.png);
+    background-size: 100% 100%;
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: blanchedalmond!important;
+}
+
+@media (max-width: 1200px) {
+    .navbar {
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        padding: 0;
+        max-width: 100vw;
+        z-index: 1033;
+    }
+    .navbar-brand {
+        background-image: url(../img/mlogo.png)!important;
+        background-size: 100% 100%;
+        width: 60px;
+        height: 55px;
+        margin: 5px;
+    }
+    .container-fluid {
+        background-color: var(--main-brown);
+    }
+    #mynav {
+        border-bottom: 2px solid var(--main-dark-brown)
+    }
+}
+
+;
+@media(max-width:768px) {
+    .navbar-brand {
+        background-image: url(../img/RBRN_logo_sajt-01-01\ \(1\).png);
+        background-size: 100% 100%;
+        width: 200px;
+        height: 40px;
+        margin-top: 5px;
+    }
+}
+
+;
+@media (max-width:992px) {
+    .navbar-brand {
+        background-image: url(../img/RBRN_logo_sajt-01-01\ \(1\).png)!important;
+        background-size: 100% 100%;
+        width: 200px;
+        height: 40px;
+        margin-top: 5px;
+    }
+}

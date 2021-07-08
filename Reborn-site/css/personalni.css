@@ -1,0 +1,25 @@
+.main-personalni {
+    background-image: url(../img/personalni.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-personalni h1 {
+    text-align: center;
+    padding-top: 20%;
+    color: #070909;
+}
+
+.treneri {
+    padding: 60px;
+}
+
+@media (max-width:1200px) {
+    .treneri h1 {
+        border-left: 4px solid var(--main-brown);
+        padding-left: 2px;
+    }
+    .main-personalni h1 {
+        padding-top: 80%;
+    }
+}

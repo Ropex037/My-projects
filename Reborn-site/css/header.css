@@ -1,0 +1,83 @@
+.carousel-control-prev {
+    border: none;
+    background: transparent;
+    color: black;
+}
+
+.carousel-control-next {
+    border: none;
+    background-color: transparent;
+}
+
+.opis {
+    /* padding-bottom: 300px;
+    padding-left: 500px;
+    text-align: left; */
+    left: 50%;
+    top: 30%;
+    text-align: left;
+}
+
+.opis1 {
+    left: 20%;
+    top: 35%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.opis1 h1 {
+    color: #070909;
+}
+
+.opis1 p {
+    color: #070909;
+}
+
+.opis3 {
+    top: 69%;
+}
+
+.opis3 a {
+    background-color: var(--main-brown);
+    border: 1px solid var(--main-dark-brown);
+    padding: 10px;
+    border-radius: 40px;
+    color: #070909;
+}
+
+.opis3 a:hover {
+    background-color: var(--main-dark-brown);
+    border: var(--main-brown);
+    color: blanchedalmond;
+}
+
+.carousel-inner {
+    width: 100vw;
+}
+
+#carouselExampleDark {
+    width: 100vw;
+}
+
+.slika {
+    width: 100vw;
+}
+
+@media(max-width:1200px) {
+    .d-none {
+        display: block!important;
+    }
+    .opis {
+        top: 24%;
+        font-size: 14px;
+        left: 45%;
+    }
+    .opis1 {
+        top: 20%;
+        font-size: 15px;
+    }
+    .slika {
+        width: 100%;
+        height: 500px;
+    }
+}

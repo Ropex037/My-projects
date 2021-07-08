@@ -1,0 +1,52 @@
+.main-kursevi {
+    background-image: url(../img/education.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-kursevi h1 {
+    text-align: center;
+    padding-top: 15%;
+    color: #070909;
+}
+
+.manuelna {
+    padding: 60px;
+}
+
+.manuelna p {
+    font-size: 20px;
+}
+
+.vrste {
+    padding-top: 40px;
+}
+
+.tretmani h2 {
+    padding: 3%;
+    text-align: center;
+}
+
+@media (max-width:1200px) {
+    .main-masaza {
+        background-image: url(../img/massage.jpg);
+        background-size: 100% 90%;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    .main-masaza h1 {
+        text-align: center;
+        padding-top: 50%;
+        color: #070909;
+    }
+    .manuelna p {
+        font-size: 16px;
+    }
+    .manuelna h1 {
+        border-left: 4px solid var(--main-brown);
+        padding-left: 3px;
+    }
+    .main-kursevi h1 {
+        padding-top: 25%;
+    }
+}

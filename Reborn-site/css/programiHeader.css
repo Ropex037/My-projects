@@ -1,0 +1,110 @@
+body {
+    background-color: #eeeeee;
+}
+
+.fokus {
+    background-image: url(../img/istezanje2.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    margin-bottom: 20px;
+}
+
+.fokus h1 {
+    color: #070909;
+    padding-top: 20%;
+    text-align: center;
+}
+
+.dugme {
+    background-color: var(--main-brown);
+    border: 1px solid var(--main-dark-brown);
+    padding: 10px;
+    border-radius: 40px;
+    color: #070909;
+    margin-left: 47%;
+}
+
+.dugme:hover {
+    background-color: var(--main-dark-brown);
+    border: 1px solid var(--main-brown);
+    color: blanchedalmond;
+}
+
+.ponude {
+    padding-top: 30px;
+}
+
+.ponude h5 {
+    text-align: center;
+    padding-right: 20%;
+}
+
+.kartice img {
+    height: 448px;
+    width: 355.703px;
+}
+
+.kartice img:hover {
+    box-shadow: 10px 10px 10px var(--main-dark-brown);
+}
+
+.kartice {
+    color: #070909;
+}
+
+.kartice:hover {
+    color: var(--main-dark-brown);
+}
+
+#borilacki {
+    color: var(--main-dark-brown);
+    color: #070909;
+}
+
+#borilacki:hover {
+    color: var(--main-dark-brown);
+}
+
+#borilacki img {
+    height: 448px;
+    width: 355.703px;
+}
+
+#borilacki img:hover {
+    box-shadow: 10px 10px 10px var(--main-dark-brown);
+}
+
+.korekt {
+    padding-right: 110px;
+    padding-left: 0!important;
+}
+
+.korekt2 {
+    padding-left: 160px;
+}
+
+.korekt2 h5 {
+    padding-left: 160px;
+}
+
+@media(max-width:1200px) {
+    .fokus h1 {
+        padding-top: 70%;
+    }
+    .dugme {
+        margin-left: 35%;
+    }
+    .ponude h5 {
+        text-align: center;
+        padding-right: 6%;
+    }
+    #borilacki {
+        padding-left: 0;
+    }
+    #borilacki h5 {
+        padding-left: 0;
+    }
+}

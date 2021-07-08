@@ -1,0 +1,79 @@
+.main-borilacki {
+    background-image: url(../img/borilacki.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-borilacki h1 {
+    text-align: center;
+    padding-top: 10%;
+    color: #070909;
+}
+
+.main-borilacki p {
+    text-align: center;
+    padding-left: 20%;
+    width: 80%;
+    font-size: 20px;
+}
+
+.borilacki-fitnes {
+    padding: 60px;
+}
+
+.borilacki-fitnes p {
+    font-size: 20px;
+}
+
+.vestine h2 {
+    text-align: center;
+}
+
+.tresnja img {
+    height: 80vh;
+    width: 100%;
+}
+
+.zato-trenirati h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.zato-trenirati p {
+    font-size: 20px;
+}
+
+@media (max-width:1200px) {
+    .main-borilacki {
+        background-image: url(../img/borilacki.jpg);
+        background-size: cover;
+    }
+    .main-borilacki h1 {
+        text-align: center;
+        padding-top: 60%;
+        color: #070909;
+    }
+    .main-borilacki p {
+        font-size: 16px;
+        color: blanchedalmond;
+        width: 100%;
+        padding-left: 0;
+    }
+    .borilacki-fitnes p {
+        font-size: 16px;
+    }
+    .borilacki-fitnes {
+        padding: 20px;
+    }
+    .manuelna h1 {
+        border-left: 4px solid var(--main-brown);
+        padding-left: 3px;
+    }
+    .tresnja img {
+        height: 50vh;
+        width: 100%;
+    }
+    .zato-trenirati p {
+        font-size: 16px;
+    }
+}
